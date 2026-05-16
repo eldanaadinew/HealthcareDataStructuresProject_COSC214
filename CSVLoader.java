@@ -14,31 +14,29 @@ public class CSVLoader {
             br.readLine();
 
             while ((line = br.readLine()) != null && count < maxRecords) {
-                String[] values = splitCSVLine(line);
+                String[] values = line.split(",");
 
                 try {
-                    int recordID = count + 1;
+                    int recordID = Integer.parseInt(values[0].trim());
                     int age = Integer.parseInt(values[1].trim());
                     String gender = values[2].trim();
-                    String medicalCondition = values[4].trim();
-                    String hospital = values[7].trim();
-                    double billingAmount = Double.parseDouble(values[9].trim());
-                    String admissionType = values[11].trim();
+                    double bmi = Double.parseDouble(values[6].trim());
+                    String diagnosis = values[7].trim();
+                    String treatmentPlan = values[8].trim();
 
                     records[count] = new PatientRecord(
                             recordID,
                             age,
                             gender,
-                            medicalCondition,
-                            hospital,
-                            admissionType,
-                            billingAmount
+                            diagnosis,
+                            treatmentPlan,
+                            bmi
                     );
 
                     count++;
 
                 } catch (Exception e) {
-                    System.out.println("Skipping invalid row.");
+                    System.out.println("Skipping invalid row: " + line);
                 }
             }
 
@@ -53,9 +51,5 @@ public class CSVLoader {
         }
 
         return finalRecords;
-    }
-
-    private static String[] splitCSVLine(String line) {
-        return line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
     }
 }
