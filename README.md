@@ -1,12 +1,12 @@
 # Project: Healthcare Data Structures# Final Semester Project for COSC 214## Our Team
 - Adinew Eldana 
  - Nzubechukwu Onwere 
-- Jenel Owusu#
+- Jenel Owusu
 - About The Project
-This project is an analysis of the performance of various data structures for maintaining healthcare style patient records using a synthetic healthcare data set.# Data Structures Implemented
+This project is an analysis of the performance of various data structures for maintaining healthcare-style patient records using a synthetic healthcare data set.# Data Structures Implemented
  - Dynamic Array 
 - Linked List 
-- Hash based structure
+- Hash-based structure
 - Priority Queue# Necessary Operations
 - Paste
 - Looking for
