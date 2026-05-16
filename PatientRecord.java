@@ -2,20 +2,18 @@ public class PatientRecord {
     private int recordID;
     private int age;
     private String gender;
-    private String medicalCondition;
-    private String hospital;
-    private String admissionType;
-    private double billingAmount;
+    private String diagnosis;
+    private String treatmentPlan;
+    private double bmi;
 
-    public PatientRecord(int recordID, int age, String gender, String medicalCondition,
-                         String hospital, String admissionType, double billingAmount) {
+    public PatientRecord(int recordID, int age, String gender, String diagnosis,
+                         String treatmentPlan, double bmi) {
         this.recordID = recordID;
         this.age = age;
         this.gender = gender;
-        this.medicalCondition = medicalCondition;
-        this.hospital = hospital;
-        this.admissionType = admissionType;
-        this.billingAmount = billingAmount;
+        this.diagnosis = diagnosis;
+        this.treatmentPlan = treatmentPlan;
+        this.bmi = bmi;
     }
 
     public int getRecordID() {
@@ -30,24 +28,22 @@ public class PatientRecord {
         return gender;
     }
 
-    public String getMedicalCondition() {
-        return medicalCondition;
+    public String getDiagnosis() {
+        return diagnosis;
     }
 
-    public String getHospital() {
-        return hospital;
+    public String getTreatmentPlan() {
+        return treatmentPlan;
     }
 
-    public String getAdmissionType() {
-        return admissionType;
-    }
-
-    public double getBillingAmount() {
-        return billingAmount;
+    public double getBmi() {
+        return bmi;
     }
 
     public boolean isEmergency() {
-        return admissionType.equalsIgnoreCase("Emergency");
+        return diagnosis.equalsIgnoreCase("Coronary Artery Disease")
+                || diagnosis.equalsIgnoreCase("Hypertension")
+                || treatmentPlan.equalsIgnoreCase("Surgery");
     }
 
     @Override
@@ -56,10 +52,9 @@ public class PatientRecord {
                 "recordID=" + recordID +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
-                ", medicalCondition='" + medicalCondition + '\'' +
-                ", hospital='" + hospital + '\'' +
-                ", admissionType='" + admissionType + '\'' +
-                ", billingAmount=" + billingAmount +
+                ", diagnosis='" + diagnosis + '\'' +
+                ", treatmentPlan='" + treatmentPlan + '\'' +
+                ", bmi=" + bmi +
                 '}';
     }
 }
