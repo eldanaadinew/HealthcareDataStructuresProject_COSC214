@@ -69,3 +69,7 @@ Results vary by computer and Java runtime, so the project is designed to compare
 - Eldana Adinew
 - Nzubechukwu Onwere
 - Jenel Owusu
+
+## Resume project-management context (self-reported)
+
+For job applications, Eldana describes leading a 4–6-member team over six weeks, tracking approximately 20–30 tasks in Jira and Trello, maintaining requirements and meeting notes in Confluence, and coordinating testing and presentation deliverables through Microsoft Teams. Eldana reports that deadlines were met and the project received an A. These coordination details and grades are self-reported and are not independently verified by the source files in this repository. Three contributors are named below; this list does not establish the total team size.
