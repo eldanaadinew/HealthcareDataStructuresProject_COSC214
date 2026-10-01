@@ -2,6 +2,10 @@
 
 A Java benchmarking project that compares common data structures for storing and processing healthcare-style patient records. The program loads CSV data, measures core operations across multiple dataset sizes, and simulates priority-based patient admission.
 
+## Project coordination and delivery
+
+Four data structures; benchmarks at 1,000, 5,000 and 10,000 records; three benchmark runs; documented comparative findings. This is a collaborative project with three listed contributors; individual responsibilities are not specified.
+
 ## Highlights
 
 - Implements a dynamic array, linked list, hash table with separate chaining, and heap-based priority queue.
