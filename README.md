@@ -4,6 +4,13 @@ A Java benchmarking project that compares common data structures for storing and
 
 ## Project coordination and delivery
 
+**Project scope and deliverables:** Compared four data structures with 1,000, 5,000, and 10,000 records; delivered Java implementations, CSV processing, benchmarks, and an admission simulation.
+
+**Quality assurance:** Repeated benchmark measurements three times and handled malformed records. The repository credits three contributors without specifying individual task ownership.
+
+
+## Project coordination and delivery
+
 Four data structures; benchmarks at 1,000, 5,000 and 10,000 records; three benchmark runs; documented comparative findings. This is a collaborative project with three listed contributors; individual responsibilities are not specified.
 
 ## Highlights
