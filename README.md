@@ -2,16 +2,18 @@
 
 A Java benchmarking project that compares common data structures for storing and processing healthcare-style patient records. The program loads CSV data, measures core operations across multiple dataset sizes, and simulates priority-based patient admission.
 
+## Project coordination and resume alignment
+
+In addition to the Java implementation documented below, I led a six-week healthcare data management team project involving 4–6 team members. I used Jira and Trello to coordinate approximately 20–30 tasks and clarify ownership, Confluence to organize requirements, meeting notes, and action items, and Microsoft Teams to coordinate testing, documentation, and presentation deliverables. We met every project deadline and earned an A.
+
+**Evidence distinction:** The source code and benchmarks below demonstrate the technical deliverables. The coordination tools, task estimates, team size, timeline, and grade describe my project experience; they are not independently evidenced by this repository. The three named code contributors below are not intended as a complete team roster.
+
 ## Project coordination and delivery
 
 **Project scope and deliverables:** Compared four data structures with 1,000, 5,000, and 10,000 records; delivered Java implementations, CSV processing, benchmarks, and an admission simulation.
 
 **Quality assurance:** Repeated benchmark measurements three times and handled malformed records. The repository credits three contributors without specifying individual task ownership.
 
-
-## Project coordination and delivery
-
-Four data structures; benchmarks at 1,000, 5,000 and 10,000 records; three benchmark runs; documented comparative findings. This is a collaborative project with three listed contributors; individual responsibilities are not specified.
 
 ## Highlights
 
@@ -69,7 +71,3 @@ Results vary by computer and Java runtime, so the project is designed to compare
 - Eldana Adinew
 - Nzubechukwu Onwere
 - Jenel Owusu
-
-## Resume project-management context (self-reported)
-
-For job applications, Eldana describes leading a 4–6-member team over six weeks, tracking approximately 20–30 tasks in Jira and Trello, maintaining requirements and meeting notes in Confluence, and coordinating testing and presentation deliverables through Microsoft Teams. Eldana reports that deadlines were met and the project received an A. These coordination details and grades are self-reported and are not independently verified by the source files in this repository. Three contributors are named below; this list does not establish the total team size.
