@@ -7,6 +7,7 @@ A Java benchmarking project that compares common data structures for storing and
 This healthcare data project combined Java development, data processing, benchmarking, and a final presentation. Work was organized over a six-week timeline, with approximately 20–30 tasks coordinated using Jira and Trello. Confluence was used for requirements, meeting notes, and action items, while Microsoft Teams supported collaboration on testing, documentation, and presentation deliverables.
 
 The work included contributions from multiple team members. The contributor list below identifies the contributors credited in this repository and is not a complete record of project roles.
+
 ## Highlights
 
 - Implements a dynamic array, linked list, hash table with separate chaining, and heap-based priority queue.
