@@ -2,19 +2,11 @@
 
 A Java benchmarking project that compares common data structures for storing and processing healthcare-style patient records. The program loads CSV data, measures core operations across multiple dataset sizes, and simulates priority-based patient admission.
 
-## Project coordination and resume alignment
+## Project workflow and collaboration
 
-In addition to the Java implementation documented below, I led a six-week healthcare data management team project involving 4–6 team members. I used Jira and Trello to coordinate approximately 20–30 tasks and clarify ownership, Confluence to organize requirements, meeting notes, and action items, and Microsoft Teams to coordinate testing, documentation, and presentation deliverables. We met every project deadline and earned an A.
+This healthcare data project combined Java development, data processing, benchmarking, and a final presentation. Work was organized over a six-week timeline, with approximately 20–30 tasks coordinated using Jira and Trello. Confluence was used for requirements, meeting notes, and action items, while Microsoft Teams supported collaboration on testing, documentation, and presentation deliverables.
 
-**Evidence distinction:** The source code and benchmarks below demonstrate the technical deliverables. The coordination tools, task estimates, team size, timeline, and grade describe my project experience; they are not independently evidenced by this repository. The three named code contributors below are not intended as a complete team roster.
-
-## Project coordination and delivery
-
-**Project scope and deliverables:** Compared four data structures with 1,000, 5,000, and 10,000 records; delivered Java implementations, CSV processing, benchmarks, and an admission simulation.
-
-**Quality assurance:** Repeated benchmark measurements three times and handled malformed records. The repository credits three contributors without specifying individual task ownership.
-
-
+The work included contributions from multiple team members. The contributor list below identifies the contributors credited in this repository and is not a complete record of project roles.
 ## Highlights
 
 - Implements a dynamic array, linked list, hash table with separate chaining, and heap-based priority queue.
